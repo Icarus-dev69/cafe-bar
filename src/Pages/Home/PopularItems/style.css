@@ -1,0 +1,31 @@
+.popular-items-sec{
+    text-align: center;
+}
+
+.popular-items-sec > .tag{
+    margin-top: 7.5em;
+    margin-bottom: 4em;
+}
+
+/* .progress-bar{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 500px;
+    display: inline-block;
+    background-color: #EEC373;
+} */
+
+/* .prog-bar-inner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 100%;
+    background-color: #876445;
+
+} */
+

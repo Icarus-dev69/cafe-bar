@@ -1,0 +1,218 @@
+.about-us-grid-container1{
+    display: grid; 
+    grid-template-columns: 1fr 1.1fr;
+    /* grid-template-areas: "a b"; */
+}
+
+.about-us-img-container1{
+    /* width: 501px;
+    height: 473px;
+    overflow: hidden; */
+    margin-top: 55px;
+    /* grid-area: 'b'; */
+}
+
+.about-us-img-container1 img{
+    clip-path: url("#about-us-clip1");
+    width: 32em;
+    height: 32em
+}
+
+.about-us-text-container1{
+    text-align: center;
+    margin-left: 70px;
+    /* grid-area: 'a'; */
+}
+
+.tag{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 10px 20px;
+    background-color: #EEC373;
+    /* width: 200px; */
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.about-us-text1{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.about-founder-container{
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    /* place-items: start; */
+    margin-top: 4em;
+    grid-gap: 10px;
+}
+
+
+.about-founder-img-container img{
+    clip-path: url('#founder-path');
+    width: 25em;
+    height: 32em;
+    float: right;
+    /* margin-left: auto; */
+}
+
+.about-founder-text-container{
+    text-align: center;
+}
+
+.about-founder-text-container .tag{
+    margin-top: 1em;
+}
+
+.about-founder-text{
+    /* font-size: 1.25rem; */
+    font-weight: 400;
+    line-height: 32px;
+}
+
+
+@media screen and (max-width:1400px){
+    .about-us-img-container1 img{
+        width: 26em;
+        height: 26em;
+    }
+
+    .about-founder-img-container img{
+        width: 20em;
+        height: 26em;
+    }
+
+    .tag{
+        font-size: 1.1rem;
+        padding: 5px 10px;
+        background-color: #EEC373;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+
+    .about-us-text1, .about-founder-text{
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 28px;
+    }
+
+    
+}
+
+@media screen and (max-width:1250px){
+    .about-us-img-container1 img{
+        width: 24em;
+        height: 24em;
+    }
+
+    .about-founder-img-container img{
+        width: 18em;
+        height: 24em;
+    }
+
+    .tag{
+        font-size: 1rem;
+        padding: 5px 10px;
+        background-color: #EEC373;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    .about-us-text-container1 .tag{
+        margin-top: 3em;
+    }
+
+    .about-us-text1, .about-founder-text{
+        font-size: 0.8rem;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+}
+
+@media screen and (max-width:960px){
+    .about-us-img-container1 img{
+        width: 19em;
+        height: 19em;
+    }
+
+    .about-founder-img-container img{
+        width: 15em;
+        height: 21em;
+    }
+
+    .tag{
+        font-size: 0.9rem;
+        padding: 5px 10px;
+        background-color: #EEC373;
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+
+    .about-us-text-container1{
+        text-align: center;
+        margin-left: 30px;
+    }
+
+    .about-us-text1, .about-founder-text{
+        font-size: 0.7rem;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    
+}
+
+@media screen and (max-width:680px){
+    .about-us-img-container1 img{
+        width: 17em;
+        height: 17em;
+    }
+
+    .about-founder-img-container img{
+        width: 14em;
+        height: 20em;
+    }
+    .about-us-text-container1{
+        text-align: center;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:580px){
+    .about-us-grid-container1, .about-founder-container{
+        /* display: block;  */
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1.2fr;
+    }
+
+    .about-us-img-container1{
+       text-align: center;
+       order: 2;
+       margin-top: 3em;
+    }
+
+    .about-founder-img-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* margin-left: auto; */
+    }
+
+    /* .about-founder-img-container img{
+        width: 16em;
+        height: 22em;
+    } */
+        
+
+    .about-us-text-container1{
+        grid-area: 'b';
+        order: 1;
+    }
+
+    /* .about-us-text-container .tag{
+        margin-top: 2em;
+    } */
+}

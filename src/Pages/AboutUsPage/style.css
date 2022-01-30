@@ -1,0 +1,79 @@
+.about-us-page-blob1{
+    position: absolute;
+    z-index: -1;
+    top: -3em;
+}
+
+.about-us-page-blob2{
+    position: absolute;
+    z-index: -1;
+    top: 47em;
+    right: 0;
+}
+
+@media screen and (max-width:1400px) {
+    .about-us-page-blob1{
+        top: -3em;
+    }
+
+    .about-us-page-blob1 svg{
+        width: 341px;
+        height: 746px;
+    }
+
+    .about-us-page-blob2{
+        top: 40em;  
+    }
+
+    .about-us-page-blob2 svg{
+        width: 466px;
+        height: 711px;
+    }
+}
+
+@media screen and (max-width:1250px){
+    .about-us-page-blob1 svg{
+        width: 301px;
+        height: 706px;
+    }
+
+    .about-us-page-blob2{
+        top: 35em;  
+    }
+
+    .about-us-page-blob2 svg{
+        width: 406px;
+        height: 651px;
+    }
+}
+
+@media screen and (max-width:950px){
+    .about-us-page-blob1 svg{
+        width: 231px;
+        height: 636px;
+    }
+
+    .about-us-page-blob2{
+        top: 32em;  
+    }
+
+    .about-us-page-blob2 svg{
+        width: 306px;
+        height: 551px;
+    }
+}
+
+@media screen and (max-width:580px){
+    .about-us-page-blob1{
+        top: 10em;
+    }
+
+    .about-us-page-blob2{
+        top: 60em;  
+    }
+
+    .about-us-page-blob2 svg{
+        width: 256px;
+        height: 501px;
+    }
+}
